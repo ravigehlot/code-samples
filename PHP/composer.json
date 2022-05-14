@@ -1,0 +1,23 @@
+{
+    "name": "ravigehlot/RaviGehlot",
+    "description": "RaviGehlot Guest Services App",
+    "type": "project",
+    "license" : "proprietary",
+    "authors": [
+        {
+            "name": "Ravi Gehlot",
+            "email": "ravi@gehlot.net"
+        }
+    ],
+    "require": {
+        "pear/console_table": "^1.3"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "RaviGehlot\\": "src/"
+         }
+    }
+}
